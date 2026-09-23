@@ -1,0 +1,17 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+backend/.env
+backend/app.db
+backend/uploads/datasets/*
+backend/uploads/submissions/*
+!backend/uploads/datasets/.gitkeep
+!backend/uploads/submissions/.gitkeep
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# Local Claude Code settings
+.claude/
